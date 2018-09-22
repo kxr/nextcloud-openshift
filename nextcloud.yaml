@@ -36,6 +36,7 @@ objects:
     resources:
       requests:
         storage: ${PVC_SIZE}
+    storageClassName: glusterfs-storage
 - apiVersion: v1
   kind: ImageStream
   metadata:
